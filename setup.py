@@ -99,6 +99,7 @@ class clean(distutils.command.clean.clean):
         # It's an old-style class in Python 2.7...
         distutils.command.clean.clean.run(self)
 
+
 setup(
     # Metadata
     name='torchvision',
